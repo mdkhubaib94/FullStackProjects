@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style> 
+        h1 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-size: 90px;
+        }
+        a[href="index.html"] {
+                padding-left: 870px;
+                color: black;
+                font-family: Arial, sans-serif;
+                text-decoration: none;
+        }
+        a[href="adv.html"] {
+                padding-left: 10px;
+                color: black;
+                font-family: Arial, sans-serif;
+                text-decoration: none;
+         }
+        a:hover {
+                text-decoration: underline;
+                color:#4285F4;
+        }
+        
+
+        form {
+            text-align: center;
+            margin-top: 55px;
+        }
+        input[type="text"] {
+            width: 550px;
+            font-size: 20px;
+            padding: 12px 20px;
+            border: 1px solid #ccc;
+            border-radius: 24px;
+            outline: none;
+        }
+        input[type="text"]:hover {
+                border:2px solid #ccc;
+        }           
+            input[value="Image Search"] {
+                width: 200px;
+                padding: 10px 25px;
+                font-size: 16px;
+                border: none;    
+        }
+        input[value="Image Search"]:hover {
+            border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Khugle Search</a><a href="adv.html">Advanced Search</a>
+        <h1>
+            <span style="color:#4285F4;">K</span><span style="color:#EA4335;">h</span><span style="color:#FBBC05;">u</span><span style="color:#4285F4;">g</span><span style="color:#34A853;">l</span><span style="color:#EA4335;">e</span>
+        </h1>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <input type="hidden" name="tbm" value="isch">
+            <br><br>
+            <input type="submit" value="Image Search">
+        </form>
+    </body>
+</html>
